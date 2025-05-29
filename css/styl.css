@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2pvdmdiYWp4b2Vsc2g2bDVqeDBvaHYzNHNnamIyenJzeWt1Z25tYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AOSwwqVjNZlDO/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* ........div one......  */
+.div_one {
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37));
+  padding: 20px;
+  height: 250px;
+  border-radius: 30px;
+  background: #e0e0e0be;
+  box-shadow: 15px 15px 30px #bebebe4b, -15px -15px 30px #ffffff73;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.errorM_One {
+  height: 25px;
+  color: red;
+  width: 290px;
+  text-align: center;
+}
+.input_one {
+  width: 180px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.button_one {
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 0px 10px #1f4c65;
+}
+.outPut_one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+/* .....div two ......  */
+.div_two {
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37));
+  padding: 20px;
+  height: 250px;
+  border-radius: 30px;
+  background: #e0e0e0be;
+  box-shadow: 15px 15px 30px #bebebe4b, -15px -15px 30px #ffffff73;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.errorM_two {
+  height: 25px;
+  color: red;
+  width: 290px;
+  text-align: center;
+}
+.input_two {
+  width: 180px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.button_two {
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 0px 10px #1f4c65;
+}
+.outPut_two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+/* .......div three......  */
+
+.div_three {
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37));
+  padding: 20px;
+  height: 250px;
+  border-radius: 30px;
+  background: #e0e0e0be;
+  box-shadow: 15px 15px 30px #bebebe4b, -15px -15px 30px #ffffff73;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.errorM_three {
+  height: 25px;
+  color: red;
+  width: 290px;
+  text-align: center;
+}
+.input_three {
+  width: 180px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.button_three {
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 0px 10px #1f4c65;
+}
+.outPut_three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+/* .......div four....  */
+.div_four {
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37));
+  padding: 20px;
+  height: 250px;
+  border-radius: 30px;
+  background: #e0e0e0be;
+  box-shadow: 15px 15px 30px #bebebe4b, -15px -15px 30px #ffffff73;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.errorM_four {
+  height: 25px;
+  color: red;
+  width: 290px;
+  text-align: center;
+}
+.input_four {
+  width: 180px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.button_four {
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 0px 10px #1f4c65;
+}
+.outPut_four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}

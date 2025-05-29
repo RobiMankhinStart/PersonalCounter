@@ -67,11 +67,55 @@ let errorM_three = document.querySelector(".errorM_three");
 let input_three = document.querySelector(".input_three");
 let button_three = document.querySelector(".button_three");
 let outPut_three = document.querySelector(".outPut_three");
-outPut_three.innerHTML = i;
+let k = 0;
+outPut_three.innerHTML = k;
+button_three.addEventListener("click", () => {
+  if (!input_three.value) {
+    outPut_three.innerHTML = "";
+    errorM_three.innerHTML = "Empty input can't be counted.";
+  } else if (input_three.value <= 0) {
+    outPut_three.innerHTML = "";
+    errorM_three.innerHTML = "The minimum required value is 1.";
+    input_three.value = "";
+  } else {
+    errorM_three.innerHTML = "";
+    let myFunThree = () => {
+      k++;
+      if (k == input_three.value) {
+        clearInterval(mySetThree);
+      }
+      outPut_three.innerHTML = k;
+    };
+    let mySetThree = setInterval(myFunThree, 400);
+  }
+});
 
 // .....dom input four ........
 let errorM_four = document.querySelector(".errorM_four");
 let input_four = document.querySelector(".input_four");
 let button_four = document.querySelector(".button_four");
 let outPut_four = document.querySelector(".outPut_four");
-outPut_four.innerHTML = i;
+let l = 0;
+
+outPut_four.innerHTML = l;
+button_four.addEventListener("click", () => {
+  if (!input_four.value) {
+    outPut_four.innerHTML = "";
+    errorM_four.innerHTML = "Empty input can't be counted.";
+  } else if (input_four.value <= 0) {
+    outPut_four.innerHTML = "";
+    errorM_four.innerHTML = "The minimum required value is 1.";
+    input_four.value = "";
+  } else {
+    errorM_four.innerHTML = "";
+
+    let myFunFour = () => {
+      l++;
+      if (input_four.value == l) {
+        clearInterval(mySetFour);
+      }
+      outPut_four.innerHTML = l;
+    };
+    let mySetFour = setInterval(myFunFour, 400);
+  }
+});
